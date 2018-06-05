@@ -1,0 +1,50 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\walter.silva\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Users\walter.silva\AppData\Roaming\npm-cache\_npx\1224;D:\Estudos\NUXT\app1\node_modules\.bin;D:\Python27\;D:\Python27\Scripts;C:\Ruby25-x64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\ManagementStudio\;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\110\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\120\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\PuTTY\;;C:\Program Files\Microsoft VS Code\bin;C:\Users\walter.silva\AppData\Roaming\npm;C:\Program Files (x86)\GnuWin32\bin;D:\ffmpeg\bin;D:\libav-11.3-win64\win64\usr\bin;
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  9.11.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 104.18.94.96:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1174:14)
+
+npm manifest: 
+  {
+    "name": "app1",
+    "version": "1.0.0",
+    "description": "My stupendous Nuxt.js project",
+    "author": "Walter Gotschalg",
+    "private": true,
+    "scripts": {
+      "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
+      "build": "nuxt build",
+      "start": "cross-env NODE_ENV=production node server/index.js",
+      "generate": "nuxt generate"
+    },
+    "dependencies": {
+      "nuxt": "^1.0.0",
+      "express": "^4.15.3",
+      "bootstrap-vue": "^1.0.2",
+      "bootstrap": "^4.0.0-beta.2",
+      "@nuxtjs/axios": "^5.0.0"
+    },
+    "devDependencies": {
+      "cross-env": "^5.0.1",
+      "nodemon": "^1.11.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
